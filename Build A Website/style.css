@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Inria+Serif|Girassol|Lobster|Pacifico&display=swap');
+
+body {
+    background-image: url("white.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Girassol', cursive;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Inria Serif', serif;
+}
+
+li {
+    font-family: 'Lobster', cursive;
+    color: black;
+    font-size: 20px;
+}    
+
+p {
+    font-family: "arial";
+    font-size: 25px;  
+}
+
+.information{
+    text-align: center;
+    background-color: whitesmoke;
+}
+a:link, :visited {
+    color: blue;
+}
+
+a:hover {
+    color: purple;
+}
+.hobbby {
+    float: left;
+}
+.movie {
+    float: left;
+}
+.todo-container {
+    float: left;
+}
+.photo {
+    width: 30%;
+    height: 30%;
+    margin: 10px;
+    border: 2px solid #000;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery {
+    margin: 20px;
+    border: 2px solid #ccc;
+    width: 450px;
+    height: 460px;
+    float: left;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc {
+    padding: 10px;
+    text-align: left;
+}
